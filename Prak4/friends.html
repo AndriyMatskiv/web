@@ -2,31 +2,29 @@
 <head>
 <title>Моя сторінка</title>
 <meta charset="utf-8">
-<a href="index.html">Назад на головну</a>
 <style>
-td {
-  background: gray;
-  text-align: center;
-  border: 2px solid black;
-}
-th {
-  background: yellow;
-  text-align: center;
-  border: 2px solid black;
-}
+table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 2px solid black;
+        }
 
-
-
-
-
-
+        th, td {
+            text-align: center;
+            border: 2px solid black;
+            padding: 1%;
+            min-width: 80px;
+        }
+         .brq:nth-child(even) {
+      background: gray;
+    }
 </style>
 </head>
 <body>
 <h1>Друзі Грибовича Михайла Івановича</h1>
-  <h2><caption > Мої друзі </caption></h2>
-<div>
-  <table cellpadding=2>
+           <h2> Друзі </h2>
+            <table>
+  <caption>Мої друзі</caption>
     <tr>
       <th>Прізвище</th>
       <th>Ім'я</th>
@@ -34,28 +32,28 @@ th {
       <th>Адреса проживання</th>
       <th>Контактний номер</th>
     </tr>
-    <tr>
+    <tr class = "brq">
       <td>Мельник</td>
       <td>Борис</td>
       <td>11.11.2004</td>
       <td>Шевченка 11</td>
       <td>03714221258</td>
     </tr>
-    <tr>
+    <tr class = "brq">
         <td>Буренко</td>
       <td>Олександр</td>
       <td>11.05.2005</td>
       <td>Лесі Українки 8</td>
       <td>06211616989</td>
     </tr>
-    <tr>
+    <tr class = "brq">
         <td>Приймак</td>
       <td>Андрій</td>
       <td>20.03.2003</td>
       <td>Кобилянська 22</td>
       <td>03750876573</td>
     </tr>
-        <tr>
+        <tr class = "brq">
         <td>Цьомко</td>
       <td>Дмитро</td>
       <td>14.12.2005</td>
@@ -63,7 +61,7 @@ th {
       <td>09167467195</td>
     </tr>
     
-
+<a href="index.html">Назад на головну</a>
 
   <p></p>
 
